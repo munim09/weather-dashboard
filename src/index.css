@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+    --color-mint-500: oklch(0.72 0.11 178);
+    --color-mint-600: oklch(0.75 0.11 178);
+    --container-padding: 1.25rem;
+
+    /* --color-body: #1d1e28;
+    --color-light: #ffffff; */
+}
+
+@utility container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+}
+
+/* colors: {
+				primary: '#B4D429',
+				dark: "#171923",
+				light: "#fff",
+				body: "#1D1E28"
+			}, */
