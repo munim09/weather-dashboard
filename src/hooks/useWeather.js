@@ -1,12 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { LocationContext } from "../context";
 
-// 50378ffd89ddd93c360213b2a851ee8d
-//https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
-//https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=50378ffd89ddd93c360213b2a851ee8d
-//https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=bba75c2869b447636ef46c292f1e1ca6
-
-const API_KEY = "50378ffd89ddd93c360213b2a851ee8d";
 const UNITS = "metric ";
 
 const useWeather = () => {

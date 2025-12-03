@@ -29,7 +29,7 @@ export default function Search() {
     const doSearch = useDebounce((term) => {
         const fetchedLocation = getLocationByName(term);
         setSelectedLocation({ ...fetchedLocation });
-    }, 800);
+    }, 1000);
 
     function handleChange(e) {
         const value = e.target.value;
